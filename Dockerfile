@@ -1,4 +1,7 @@
 FROM amazoncorretto:11
-WORKDIR /app
-COPY /app/target/*.jar /app.jar
+
+RUN cd /
+RUN mkdir myDir
+RUN echo "I am here!!!" > /myDir/shouldBeCopied.txt
+COPY ./target/*.jar /app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
