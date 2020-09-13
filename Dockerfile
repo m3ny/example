@@ -1,8 +1,8 @@
-FROM amazoncorretto:11
+FROM maven:3.6-jdk-11-slim as build
+WORKDIR /home/java
+COPY . .
+RUN mvn clean package -Dmaven.test.skip=true
 
-RUN pwd
-RUN echo "*******"
-RUN ls -ltr /kaniko/executor
-RUN ls -ltr /workspace/docker-source
-COPY ./target/*.jar /app.jar
+FROM amazoncorretto:11
+COPY --from=build /home/java/*.jar /app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
