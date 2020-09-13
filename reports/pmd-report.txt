@@ -1,0 +1,66 @@
+src/main/java/se/home/k8s/BootProps.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/se/home/k8s/BootProps.java:9:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/se/home/k8s/BootProps.java:9:	CommentRequired: Class comments are required
+src/main/java/se/home/k8s/BootProps.java:9:	CommentRequired: Class comments are required
+src/main/java/se/home/k8s/BootProps.java:11:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/BootProps.java:11:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/BootProps.java:17:	MethodArgumentCouldBeFinal: Parameter 'myval' is not assigned and could be declared final
+src/main/java/se/home/k8s/BootProps.java:17:	MethodArgumentCouldBeFinal: Parameter 'myval' is not assigned and could be declared final
+src/main/java/se/home/k8s/ConfigController.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/se/home/k8s/ConfigController.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/se/home/k8s/ConfigController.java:10:	CommentRequired: Class comments are required
+src/main/java/se/home/k8s/ConfigController.java:10:	CommentRequired: Class comments are required
+src/main/java/se/home/k8s/ConfigController.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/se/home/k8s/ConfigController.java:12:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/se/home/k8s/ConfigController.java:13:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/se/home/k8s/ConfigController.java:13:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/se/home/k8s/ConfigController.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the settings field if you want a default access modifier
+src/main/java/se/home/k8s/ConfigController.java:13:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the settings field if you want a default access modifier
+src/main/java/se/home/k8s/ConfigController.java:13:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/ConfigController.java:13:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/ConfigController.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/se/home/k8s/ConfigController.java:14:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/se/home/k8s/ConfigController.java:15:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/se/home/k8s/ConfigController.java:15:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/se/home/k8s/ConfigController.java:15:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the bootprops field if you want a default access modifier
+src/main/java/se/home/k8s/ConfigController.java:15:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the bootprops field if you want a default access modifier
+src/main/java/se/home/k8s/ConfigController.java:15:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/ConfigController.java:15:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/ConfigController.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/se/home/k8s/ConfigController.java:19:	CommentRequired: Public method and constructor comments are required
+src/main/java/se/home/k8s/K8sApplication.java:7:	CommentRequired: Class comments are required
+src/main/java/se/home/k8s/K8sApplication.java:7:	CommentRequired: Class comments are required
+src/main/java/se/home/k8s/K8sApplication.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/se/home/k8s/K8sApplication.java:7:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/se/home/k8s/K8sApplication.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/se/home/k8s/K8sApplication.java:9:	CommentRequired: Public method and constructor comments are required
+src/main/java/se/home/k8s/K8sApplication.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/se/home/k8s/K8sApplication.java:9:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/se/home/k8s/Settings.java:9:	CommentRequired: Class comments are required
+src/main/java/se/home/k8s/Settings.java:9:	CommentRequired: Class comments are required
+src/main/java/se/home/k8s/Settings.java:9:	DataClass: The class 'Settings' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=5)
+src/main/java/se/home/k8s/Settings.java:9:	DataClass: The class 'Settings' is suspected to be a Data Class (WOC=0.000%, NOPA=1, NOAM=4, WMC=5)
+src/main/java/se/home/k8s/Settings.java:11:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/Settings.java:11:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/Settings.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/se/home/k8s/Settings.java:13:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/se/home/k8s/Settings.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the value1 field if you want a default access modifier
+src/main/java/se/home/k8s/Settings.java:14:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the value1 field if you want a default access modifier
+src/main/java/se/home/k8s/Settings.java:14:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/Settings.java:14:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/Settings.java:15:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/se/home/k8s/Settings.java:15:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/main/java/se/home/k8s/Settings.java:16:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the value2 field if you want a default access modifier
+src/main/java/se/home/k8s/Settings.java:16:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the value2 field if you want a default access modifier
+src/main/java/se/home/k8s/Settings.java:16:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/Settings.java:16:	CommentRequired: Field comments are required
+src/main/java/se/home/k8s/Settings.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/se/home/k8s/Settings.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/se/home/k8s/Settings.java:21:	AssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/se/home/k8s/Settings.java:21:	AssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+src/main/java/se/home/k8s/Settings.java:21:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/se/home/k8s/Settings.java:21:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/se/home/k8s/Settings.java:27:	MethodArgumentCouldBeFinal: Parameter 'value1' is not assigned and could be declared final
+src/main/java/se/home/k8s/Settings.java:27:	MethodArgumentCouldBeFinal: Parameter 'value1' is not assigned and could be declared final
+src/main/java/se/home/k8s/Settings.java:34:	MethodArgumentCouldBeFinal: Parameter 'value2' is not assigned and could be declared final
+src/main/java/se/home/k8s/Settings.java:34:	MethodArgumentCouldBeFinal: Parameter 'value2' is not assigned and could be declared final
