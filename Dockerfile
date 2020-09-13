@@ -1,4 +1,3 @@
 FROM amazoncorretto:11
-ARG JAR_FILE=target/*.jar
-COPY ${JAR_FILE} app.jar
+COPY --from=build-env /app/target/app.jar ./app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
