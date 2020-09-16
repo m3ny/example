@@ -15,6 +15,6 @@ public class ConfigController {
 	@GetMapping("/")
 	public ResponseEntity<String> getConfigValue(){
 		logger.warn("Logging Statement");
-		return new ResponseEntity<>("Some values", HttpStatus.OK);
+		return new ResponseEntity<>("Some value", HttpStatus.OK);
 	}
 }
