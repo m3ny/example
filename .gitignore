@@ -1,0 +1,4 @@
+.idea/
+target/
+k8s.iml
+.mvn/
