@@ -25,7 +25,7 @@ public class ConfigControllerTest {
 	
 	@Test
 	public void test2001() throws Exception {
-		mockmvc.perform(get("/")).andExpect(status().isOk()).andExpect(content().string("Some values"));
+		mockmvc.perform(get("/")).andExpect(status().isOk()).andExpect(content().string("Some value"));
 	}
 
 }
